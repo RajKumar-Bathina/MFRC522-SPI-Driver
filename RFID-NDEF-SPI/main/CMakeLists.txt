@@ -1,0 +1,2 @@
+idf_component_register(SRCS "MFRC522_SPI.cpp" "main.cpp" "MifareClassic.cpp" "MifareUltralight.cpp" "Ndef.cpp" "NdefMessage.cpp" "NdefRecord.cpp" "NfcAdapter.cpp" "NfcTag.cpp"
+                    INCLUDE_DIRS ".")

@@ -31,4 +31,4 @@ Run
 - When a tag is present the program reads it and prints information using [`NfcTag`](main/NfcTag.h).
 
 License
-This project is licensed under the MIT License — see [(https://github.com/RajKumar-Bathina/MFRC522-SPI-Driver/blob/main/LICENSE)](LICENSE).
+This project is licensed under the MIT License

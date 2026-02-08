@@ -67,7 +67,7 @@ extern "C" void app_main()
 {
     ESP_LOGI(TAG, "Initializing SPI driver...");
     spi_master_init();
-    vTaskDelay(100 / portTICK_PERIOD_MS); // Give I2C time to settle
+    vTaskDelay(100 / portTICK_PERIOD_MS); // Give SPI time to settle
 
     static MFRC522 mfrc522(spiHandle);
     NfcAdapter nfc(&mfrc522);
